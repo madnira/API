@@ -1,0 +1,581 @@
+2025-02-01 17:43:37,362 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 17:43:37,362 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 17:43:37,363 - INFO -  * Restarting with stat
+2025-02-01 17:43:37,467 - WARNING -  * Debugger is active!
+2025-02-01 17:43:37,472 - INFO -  * Debugger PIN: 789-056-826
+2025-02-01 17:43:48,458 - INFO - Received data: {'num1': 10, 'num2': 20, 'operator': 'add'}
+2025-02-01 17:43:48,458 - INFO - Addition done
+2025-02-01 17:43:48,459 - INFO - Answer returned in JSON format
+2025-02-01 17:43:48,459 - INFO - 127.0.0.1 - - [01/Feb/2025 17:43:48] "POST /calculator HTTP/1.1" 200 -
+2025-02-01 17:44:18,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 17:44:18,282 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 17:44:18,283 - INFO -  * Restarting with stat
+2025-02-01 17:44:18,398 - WARNING -  * Debugger is active!
+2025-02-01 17:44:18,402 - INFO -  * Debugger PIN: 789-056-826
+2025-02-01 17:44:21,297 - INFO - 127.0.0.1 - - [01/Feb/2025 17:44:21] "[33mPOST /calculator HTTP/1.1[0m" 404 -
+2025-02-01 17:44:25,239 - INFO - Received data: {'num1': 10, 'num2': 20, 'operator': 'add'}
+2025-02-01 17:44:25,240 - INFO - Addition done
+2025-02-01 17:44:25,240 - INFO - Answer returned in JSON format
+2025-02-01 17:44:25,240 - INFO - 127.0.0.1 - - [01/Feb/2025 17:44:25] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 17:44:51,726 - INFO -  * Detected change in '/Users/arin/Github/API/calc_app_v2.py', reloading
+2025-02-01 17:44:51,758 - INFO -  * Restarting with stat
+2025-02-01 17:44:53,835 - INFO - Received data: {'num1': 10, 'num2': 20, 'operator': 'add'}
+2025-02-01 17:44:53,835 - INFO - Addition done
+2025-02-01 17:44:53,835 - INFO - Answer returned in JSON format
+2025-02-01 17:44:53,836 - INFO - 127.0.0.1 - - [01/Feb/2025 17:44:53] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 17:45:15,923 - INFO - Received data: {'num1': 10, 'num2': 20, 'operator': 'add'}
+2025-02-01 17:45:15,924 - INFO - Addition done
+2025-02-01 17:45:15,924 - INFO - Answer returned in JSON format
+2025-02-01 17:45:15,925 - INFO - 127.0.0.1 - - [01/Feb/2025 17:45:15] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 17:46:03,432 - INFO - Received data: {'num1': 100, 'num2': 550, 'operator': 'add'}
+2025-02-01 17:46:03,433 - INFO - Addition done
+2025-02-01 17:46:03,433 - INFO - Answer returned in JSON format
+2025-02-01 17:46:03,434 - INFO - 127.0.0.1 - - [01/Feb/2025 17:46:03] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 17:47:40,397 - INFO - Received data: {'num1': 100, 'num2': 550, 'operator': 'Rul'}
+2025-02-01 17:47:40,399 - ERROR - Invalid operator
+2025-02-01 17:47:40,400 - INFO - 127.0.0.1 - - [01/Feb/2025 17:47:40] "[31m[1mPOST /calculator2 HTTP/1.1[0m" 400 -
+2025-02-01 17:48:03,643 - INFO - Received data: {'num1': 100, 'num2': 550, 'operator': 'Mul'}
+2025-02-01 17:48:03,643 - ERROR - Invalid operator
+2025-02-01 17:48:03,644 - INFO - 127.0.0.1 - - [01/Feb/2025 17:48:03] "[31m[1mPOST /calculator2 HTTP/1.1[0m" 400 -
+2025-02-01 17:48:09,290 - INFO - Received data: {'num1': 100, 'num2': 550, 'operator': 'mul'}
+2025-02-01 17:48:09,290 - INFO - Multiplication done
+2025-02-01 17:48:09,291 - INFO - Answer returned in JSON format
+2025-02-01 17:48:09,291 - INFO - 127.0.0.1 - - [01/Feb/2025 17:48:09] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:09:10,694 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:09:10,695 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:09:16,580 - INFO - Received data: {'num1': 100, 'num2': 550, 'operator': 'mul'}
+2025-02-01 18:09:16,580 - INFO - Multiplication function called
+2025-02-01 18:09:16,580 - INFO - Multiplication done
+2025-02-01 18:09:16,580 - INFO - Answer returned in JSON format
+2025-02-01 18:09:16,581 - INFO - 127.0.0.1 - - [01/Feb/2025 18:09:16] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:09:25,503 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:09:25,503 - INFO - Subtraction function called
+2025-02-01 18:09:25,503 - ERROR - An unexpected error occurred: 'int' object is not callable
+2025-02-01 18:09:25,504 - INFO - 127.0.0.1 - - [01/Feb/2025 18:09:25] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:10:23,369 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:10:23,371 - INFO - Subtraction function called
+2025-02-01 18:10:23,371 - ERROR - An unexpected error occurred: 'int' object is not callable
+2025-02-01 18:10:23,371 - INFO - 127.0.0.1 - - [01/Feb/2025 18:10:23] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:11:30,788 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:11:30,789 - INFO - Multiplication function called
+2025-02-01 18:11:30,789 - INFO - Multiplication done
+2025-02-01 18:11:30,789 - INFO - Answer returned in JSON format
+2025-02-01 18:11:30,789 - INFO - 127.0.0.1 - - [01/Feb/2025 18:11:30] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:12:25,565 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'div'}
+2025-02-01 18:12:25,566 - INFO - Division function called
+2025-02-01 18:12:25,566 - INFO - Division done
+2025-02-01 18:12:25,566 - INFO - Answer returned in JSON format
+2025-02-01 18:12:25,567 - INFO - 127.0.0.1 - - [01/Feb/2025 18:12:25] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:15:17,692 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:15:17,693 - INFO - Subtraction function called
+2025-02-01 18:15:17,693 - ERROR - An unexpected error occurred: 'int' object is not callable
+2025-02-01 18:15:17,694 - INFO - 127.0.0.1 - - [01/Feb/2025 18:15:17] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:15:26,732 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:15:26,732 - INFO - Subtraction function called
+2025-02-01 18:15:26,733 - ERROR - An unexpected error occurred: 'int' object is not callable
+2025-02-01 18:15:26,733 - INFO - 127.0.0.1 - - [01/Feb/2025 18:15:26] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:16:39,147 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:16:39,148 - INFO - Subtraction function called
+2025-02-01 18:16:39,149 - ERROR - An unexpected error occurred: 'int' object is not callable
+2025-02-01 18:16:39,149 - INFO - 127.0.0.1 - - [01/Feb/2025 18:16:39] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:17:09,623 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:17:09,623 - INFO - Multiplication function called
+2025-02-01 18:17:09,624 - INFO - Multiplication done
+2025-02-01 18:17:09,624 - INFO - Answer returned in JSON format
+2025-02-01 18:17:09,624 - INFO - 127.0.0.1 - - [01/Feb/2025 18:17:09] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:17:17,487 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:17:17,487 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:17:17,487 - INFO -  * Restarting with stat
+2025-02-01 18:17:17,590 - WARNING -  * Debugger is active!
+2025-02-01 18:17:17,595 - INFO -  * Debugger PIN: 789-056-826
+2025-02-01 18:17:21,652 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:17:21,652 - INFO - Multiplication function called
+2025-02-01 18:17:21,652 - INFO - Multiplication done
+2025-02-01 18:17:21,652 - INFO - Answer returned in JSON format
+2025-02-01 18:17:21,653 - INFO - 127.0.0.1 - - [01/Feb/2025 18:17:21] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:17:39,821 - INFO -  * Detected change in '/Users/arin/Github/API/calc_app_v3.py', reloading
+2025-02-01 18:17:39,848 - INFO -  * Restarting with stat
+2025-02-01 18:18:10,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:18:10,144 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:18:14,475 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:18:14,475 - INFO - Multiplication function called
+2025-02-01 18:18:14,475 - INFO - Multiplication done
+2025-02-01 18:18:14,476 - INFO - Answer returned in JSON format
+2025-02-01 18:18:14,477 - INFO - 127.0.0.1 - - [01/Feb/2025 18:18:14] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:20:36,038 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:20:36,039 - INFO - Multiplication function called
+2025-02-01 18:20:36,039 - INFO - Multiplication done
+2025-02-01 18:20:36,039 - INFO - Answer returned in JSON format
+2025-02-01 18:20:36,040 - INFO - 127.0.0.1 - - [01/Feb/2025 18:20:36] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:20:40,256 - INFO - Received data: {'num1': 10, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:20:40,256 - INFO - Subtraction function called
+2025-02-01 18:20:40,256 - INFO - Subtraction done
+2025-02-01 18:20:40,256 - INFO - Answer returned in JSON format
+2025-02-01 18:20:40,256 - INFO - 127.0.0.1 - - [01/Feb/2025 18:20:40] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:20:54,924 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'sub'}
+2025-02-01 18:20:54,925 - INFO - Subtraction function called
+2025-02-01 18:20:54,925 - INFO - Subtraction done
+2025-02-01 18:20:54,925 - INFO - Answer returned in JSON format
+2025-02-01 18:20:54,926 - INFO - 127.0.0.1 - - [01/Feb/2025 18:20:54] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:22:54,617 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'div'}
+2025-02-01 18:22:54,619 - INFO - Division function called
+2025-02-01 18:22:54,619 - INFO - Division done
+2025-02-01 18:22:54,619 - INFO - Answer returned in JSON format
+2025-02-01 18:22:54,619 - INFO - 127.0.0.1 - - [01/Feb/2025 18:22:54] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:23:46,520 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:23:46,521 - INFO - Multiplication function called
+2025-02-01 18:23:46,521 - INFO - Multiplication done
+2025-02-01 18:23:46,521 - INFO - Answer returned in JSON format
+2025-02-01 18:23:46,521 - INFO - 127.0.0.1 - - [01/Feb/2025 18:23:46] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:24:15,411 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:24:15,411 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:24:18,745 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:24:18,746 - INFO - Multiplication function called
+2025-02-01 18:24:18,746 - INFO - Multiplication done
+2025-02-01 18:24:18,746 - INFO - Answer returned in JSON format
+2025-02-01 18:24:18,747 - INFO - 127.0.0.1 - - [01/Feb/2025 18:24:18] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:28:20,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:28:20,163 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:28:25,694 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:28:25,695 - ERROR - Exception on /calculator2 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 47, in calculator
+    count = counter()
+NameError: name 'counter' is not defined
+2025-02-01 18:28:25,700 - INFO - 127.0.0.1 - - [01/Feb/2025 18:28:25] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:30:38,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:30:38,891 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:30:41,142 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 18:30:41,142 - INFO - Counter function called
+2025-02-01 18:30:41,142 - INFO - Multiplication function called
+2025-02-01 18:30:41,142 - INFO - Multiplication done
+2025-02-01 18:30:41,142 - INFO - Answer returned in JSON format
+2025-02-01 18:30:41,143 - INFO - 127.0.0.1 - - [01/Feb/2025 18:30:41] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:30:55,030 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 18:30:55,031 - INFO - Counter function called
+2025-02-01 18:30:55,031 - INFO - Addition function called
+2025-02-01 18:30:55,031 - INFO - Addition done
+2025-02-01 18:30:55,032 - INFO - Answer returned in JSON format
+2025-02-01 18:30:55,032 - INFO - 127.0.0.1 - - [01/Feb/2025 18:30:55] "POST /calculator2 HTTP/1.1" 200 -
+2025-02-01 18:48:39,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:48:39,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:48:43,101 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 18:48:43,102 - INFO - An unexpected error occurred: not readable
+2025-02-01 18:48:43,102 - INFO - Counter function called
+2025-02-01 18:48:43,102 - ERROR - Exception on /calculator2 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 69, in calculator
+    count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in counter
+    return count
+UnboundLocalError: local variable 'count' referenced before assignment
+2025-02-01 18:48:43,106 - INFO - 127.0.0.1 - - [01/Feb/2025 18:48:43] "[35m[1mPOST /calculator2 HTTP/1.1[0m" 500 -
+2025-02-01 18:49:12,958 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:49:12,958 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:49:16,333 - INFO - 127.0.0.1 - - [01/Feb/2025 18:49:16] "[33mPOST /calculator2 HTTP/1.1[0m" 404 -
+2025-02-01 18:49:20,684 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 18:49:20,685 - INFO - An unexpected error occurred: not readable
+2025-02-01 18:49:20,685 - INFO - Counter function called
+2025-02-01 18:49:20,686 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 69, in calculator
+    count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in counter
+    return count
+UnboundLocalError: local variable 'count' referenced before assignment
+2025-02-01 18:49:20,690 - INFO - 127.0.0.1 - - [01/Feb/2025 18:49:20] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 18:50:47,231 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:50:47,232 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:50:50,903 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 18:50:50,904 - INFO - An unexpected error occurred: not readable
+2025-02-01 18:50:50,904 - INFO - Counter function called
+2025-02-01 18:50:50,904 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 69, in calculator
+    latest_count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in counter
+    return count
+UnboundLocalError: local variable 'count' referenced before assignment
+2025-02-01 18:50:50,909 - INFO - 127.0.0.1 - - [01/Feb/2025 18:50:50] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 18:52:27,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 18:52:27,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 18:52:30,902 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 18:52:30,904 - INFO - An unexpected error occurred: not readable
+2025-02-01 18:52:30,904 - INFO - Counter function called
+2025-02-01 18:52:30,904 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in calculator
+    latest_count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 116, in counter
+    return count
+UnboundLocalError: local variable 'count' referenced before assignment
+2025-02-01 18:52:30,908 - INFO - 127.0.0.1 - - [01/Feb/2025 18:52:30] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 19:02:28,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:02:28,558 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:02:30,869 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:02:30,870 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:02:30,870 - INFO - Counter function called
+2025-02-01 19:02:30,870 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 65, in calculator
+    latest_count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in counter
+    return new_count
+UnboundLocalError: local variable 'new_count' referenced before assignment
+2025-02-01 19:02:30,873 - INFO - 127.0.0.1 - - [01/Feb/2025 19:02:30] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 19:07:52,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:07:52,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:07:54,993 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:07:54,993 - INFO - The calculator function has been called 1 times)
+2025-02-01 19:07:54,993 - INFO - Addition function called
+2025-02-01 19:07:54,993 - INFO - Addition done
+2025-02-01 19:07:54,993 - INFO - Answer returned in JSON format
+2025-02-01 19:07:54,994 - INFO - 127.0.0.1 - - [01/Feb/2025 19:07:54] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:09:24,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:09:24,685 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:09:27,319 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:09:27,320 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:09:27,320 - INFO - Counter function called
+2025-02-01 19:09:27,320 - INFO - The calculator function has been called 0 times
+2025-02-01 19:09:27,320 - INFO - Addition function called
+2025-02-01 19:09:27,321 - INFO - Addition done
+2025-02-01 19:09:27,321 - INFO - Answer returned in JSON format
+2025-02-01 19:09:27,321 - INFO - 127.0.0.1 - - [01/Feb/2025 19:09:27] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:09:46,756 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:09:46,757 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:09:46,757 - INFO - Counter function called
+2025-02-01 19:09:46,757 - INFO - The calculator function has been called 0 times
+2025-02-01 19:09:46,757 - INFO - Addition function called
+2025-02-01 19:09:46,757 - INFO - Addition done
+2025-02-01 19:09:46,757 - INFO - Answer returned in JSON format
+2025-02-01 19:09:46,758 - INFO - 127.0.0.1 - - [01/Feb/2025 19:09:46] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:10:05,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:10:05,812 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:10:37,007 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:10:37,007 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:10:39,100 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:10:39,100 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:10:39,101 - INFO - Counter function called
+2025-02-01 19:10:39,101 - INFO - The calculator function has been called 1 times
+2025-02-01 19:10:39,101 - INFO - Addition function called
+2025-02-01 19:10:39,101 - INFO - Addition done
+2025-02-01 19:10:39,101 - INFO - Answer returned in JSON format
+2025-02-01 19:10:39,102 - INFO - 127.0.0.1 - - [01/Feb/2025 19:10:39] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:10:59,424 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:10:59,424 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:10:59,425 - INFO - Counter function called
+2025-02-01 19:10:59,425 - INFO - The calculator function has been called 1 times
+2025-02-01 19:10:59,425 - INFO - Multiplication function called
+2025-02-01 19:10:59,425 - INFO - Multiplication done
+2025-02-01 19:10:59,425 - INFO - Answer returned in JSON format
+2025-02-01 19:10:59,426 - INFO - 127.0.0.1 - - [01/Feb/2025 19:10:59] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:12:27,801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:12:27,801 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:12:30,596 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:12:30,597 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:12:30,597 - INFO - Counter function called
+2025-02-01 19:12:30,597 - INFO - The calculator function has been called 0 times
+2025-02-01 19:12:30,597 - INFO - Multiplication function called
+2025-02-01 19:12:30,597 - INFO - Multiplication done
+2025-02-01 19:12:30,597 - INFO - Answer returned in JSON format
+2025-02-01 19:12:30,603 - INFO - 127.0.0.1 - - [01/Feb/2025 19:12:30] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:12:50,274 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:12:50,278 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:12:50,278 - INFO - Counter function called
+2025-02-01 19:12:50,278 - INFO - The calculator function has been called 0 times
+2025-02-01 19:12:50,278 - INFO - Multiplication function called
+2025-02-01 19:12:50,278 - INFO - Multiplication done
+2025-02-01 19:12:50,278 - INFO - Answer returned in JSON format
+2025-02-01 19:12:50,279 - INFO - 127.0.0.1 - - [01/Feb/2025 19:12:50] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:12:51,022 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:12:51,023 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:12:51,023 - INFO - Counter function called
+2025-02-01 19:12:51,023 - INFO - The calculator function has been called 0 times
+2025-02-01 19:12:51,023 - INFO - Multiplication function called
+2025-02-01 19:12:51,023 - INFO - Multiplication done
+2025-02-01 19:12:51,023 - INFO - Answer returned in JSON format
+2025-02-01 19:12:51,024 - INFO - 127.0.0.1 - - [01/Feb/2025 19:12:51] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:13:26,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:13:26,716 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:13:29,341 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:13:29,342 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 65, in calculator
+    latest_count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 32, in counter
+    new_count
+UnboundLocalError: local variable 'new_count' referenced before assignment
+2025-02-01 19:13:29,346 - INFO - 127.0.0.1 - - [01/Feb/2025 19:13:29] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 19:14:12,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:14:12,162 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:14:14,587 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:14:14,588 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:14:14,588 - INFO - Counter function called
+2025-02-01 19:14:14,588 - INFO - The calculator function has been called 0 times
+2025-02-01 19:14:14,588 - INFO - Multiplication function called
+2025-02-01 19:14:14,588 - INFO - Multiplication done
+2025-02-01 19:14:14,588 - INFO - Answer returned in JSON format
+2025-02-01 19:14:14,589 - INFO - 127.0.0.1 - - [01/Feb/2025 19:14:14] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:14:22,830 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:14:22,830 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:14:22,830 - INFO - Counter function called
+2025-02-01 19:14:22,830 - INFO - The calculator function has been called 0 times
+2025-02-01 19:14:22,830 - INFO - Multiplication function called
+2025-02-01 19:14:22,830 - INFO - Multiplication done
+2025-02-01 19:14:22,830 - INFO - Answer returned in JSON format
+2025-02-01 19:14:22,831 - INFO - 127.0.0.1 - - [01/Feb/2025 19:14:22] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:14:47,906 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:14:47,906 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:14:49,931 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:14:49,931 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:14:49,931 - INFO - Counter function called
+2025-02-01 19:14:49,931 - INFO - The calculator function has been called 0 times
+2025-02-01 19:14:49,931 - INFO - Multiplication function called
+2025-02-01 19:14:49,931 - INFO - Multiplication done
+2025-02-01 19:14:49,932 - INFO - Answer returned in JSON format
+2025-02-01 19:14:49,932 - INFO - 127.0.0.1 - - [01/Feb/2025 19:14:49] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:15:35,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:15:35,821 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:15:37,894 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:15:37,895 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:15:37,895 - INFO - Counter function called
+2025-02-01 19:15:37,895 - ERROR - Exception on /calculator3 [POST]
+Traceback (most recent call last):
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/arin/Github/API/.venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/arin/Github/API/calc_app_v3.py", line 65, in calculator
+    latest_count = counter()
+  File "/Users/arin/Github/API/calc_app_v3.py", line 45, in counter
+    return new_count
+UnboundLocalError: local variable 'new_count' referenced before assignment
+2025-02-01 19:15:37,900 - INFO - 127.0.0.1 - - [01/Feb/2025 19:15:37] "[35m[1mPOST /calculator3 HTTP/1.1[0m" 500 -
+2025-02-01 19:17:21,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:17:21,082 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:17:23,390 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:17:23,392 - INFO - An unexpected error occurred: not readable
+2025-02-01 19:17:23,392 - INFO - Counter function called
+2025-02-01 19:17:23,392 - INFO - The calculator function has been called 0 times
+2025-02-01 19:17:23,392 - INFO - Multiplication function called
+2025-02-01 19:17:23,392 - INFO - Multiplication done
+2025-02-01 19:17:23,392 - INFO - Answer returned in JSON format
+2025-02-01 19:17:23,393 - INFO - 127.0.0.1 - - [01/Feb/2025 19:17:23] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:19:26,830 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:19:26,830 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:19:29,197 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:19:29,198 - INFO - An unexpected error occurred: write() argument must be str, not int
+2025-02-01 19:19:29,198 - INFO - Counter function called
+2025-02-01 19:19:29,199 - INFO - The calculator function has been called 1 times
+2025-02-01 19:19:29,199 - INFO - Multiplication function called
+2025-02-01 19:19:29,199 - INFO - Multiplication done
+2025-02-01 19:19:29,199 - INFO - Answer returned in JSON format
+2025-02-01 19:19:29,199 - INFO - 127.0.0.1 - - [01/Feb/2025 19:19:29] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:19:48,513 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:19:48,513 - INFO - An unexpected error occurred: invalid literal for int() with base 10: ''
+2025-02-01 19:19:48,513 - INFO - Counter function called
+2025-02-01 19:19:48,513 - INFO - The calculator function has been called 0 times
+2025-02-01 19:19:48,513 - INFO - Multiplication function called
+2025-02-01 19:19:48,513 - INFO - Multiplication done
+2025-02-01 19:19:48,513 - INFO - Answer returned in JSON format
+2025-02-01 19:19:48,514 - INFO - 127.0.0.1 - - [01/Feb/2025 19:19:48] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:20:41,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:20:41,382 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:20:43,693 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:20:43,693 - INFO - An unexpected error occurred: write() argument must be str, not int
+2025-02-01 19:20:43,693 - INFO - Counter function called
+2025-02-01 19:20:43,693 - INFO - The calculator function has been called 1 times
+2025-02-01 19:20:43,693 - INFO - Multiplication function called
+2025-02-01 19:20:43,694 - INFO - Multiplication done
+2025-02-01 19:20:43,694 - INFO - Answer returned in JSON format
+2025-02-01 19:20:43,695 - INFO - 127.0.0.1 - - [01/Feb/2025 19:20:43] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:20:52,905 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:20:52,906 - INFO - An unexpected error occurred: write() argument must be str, not int
+2025-02-01 19:20:52,906 - INFO - Counter function called
+2025-02-01 19:20:52,906 - INFO - The calculator function has been called 1 times
+2025-02-01 19:20:52,906 - INFO - Multiplication function called
+2025-02-01 19:20:52,906 - INFO - Multiplication done
+2025-02-01 19:20:52,906 - INFO - Answer returned in JSON format
+2025-02-01 19:20:52,906 - INFO - 127.0.0.1 - - [01/Feb/2025 19:20:52] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:22:34,268 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:22:34,268 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:22:36,125 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:22:36,127 - INFO - An unexpected error occurred: write() argument must be str, not int
+2025-02-01 19:22:36,127 - INFO - Counter function called
+2025-02-01 19:22:36,127 - INFO - The calculator function has been called 1 times
+2025-02-01 19:22:36,127 - INFO - Multiplication function called
+2025-02-01 19:22:36,127 - INFO - Multiplication done
+2025-02-01 19:22:36,127 - INFO - Answer returned in JSON format
+2025-02-01 19:22:36,141 - INFO - 127.0.0.1 - - [01/Feb/2025 19:22:36] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:22:53,450 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:22:53,450 - INFO - An unexpected error occurred: invalid literal for int() with base 10: ''
+2025-02-01 19:22:53,450 - INFO - Counter function called
+2025-02-01 19:22:53,450 - INFO - The calculator function has been called 0 times
+2025-02-01 19:22:53,450 - INFO - Addition function called
+2025-02-01 19:22:53,451 - INFO - Addition done
+2025-02-01 19:22:53,451 - INFO - Answer returned in JSON format
+2025-02-01 19:22:53,451 - INFO - 127.0.0.1 - - [01/Feb/2025 19:22:53] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:24:25,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:24:25,003 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:24:27,118 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:24:27,118 - INFO - Last count is 0
+2025-02-01 19:24:27,118 - INFO - New count is 1
+2025-02-01 19:24:27,119 - INFO - An unexpected error occurred: write() argument must be str, not int
+2025-02-01 19:24:27,119 - INFO - Counter function called
+2025-02-01 19:24:27,119 - INFO - The calculator function has been called 1 times
+2025-02-01 19:24:27,119 - INFO - Addition function called
+2025-02-01 19:24:27,119 - INFO - Addition done
+2025-02-01 19:24:27,119 - INFO - Answer returned in JSON format
+2025-02-01 19:24:27,120 - INFO - 127.0.0.1 - - [01/Feb/2025 19:24:27] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:25:19,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:25:19,586 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:25:21,816 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:25:21,817 - INFO - Last count is 0
+2025-02-01 19:25:21,817 - INFO - New count is 1
+2025-02-01 19:25:21,818 - INFO - Counter function called
+2025-02-01 19:25:21,818 - INFO - The calculator function has been called 1 times
+2025-02-01 19:25:21,818 - INFO - Addition function called
+2025-02-01 19:25:21,818 - INFO - Addition done
+2025-02-01 19:25:21,818 - INFO - Answer returned in JSON format
+2025-02-01 19:25:21,819 - INFO - 127.0.0.1 - - [01/Feb/2025 19:25:21] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:25:23,052 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'add'}
+2025-02-01 19:25:23,053 - INFO - Last count is 1
+2025-02-01 19:25:23,053 - INFO - New count is 2
+2025-02-01 19:25:23,053 - INFO - Counter function called
+2025-02-01 19:25:23,053 - INFO - The calculator function has been called 2 times
+2025-02-01 19:25:23,054 - INFO - Addition function called
+2025-02-01 19:25:23,054 - INFO - Addition done
+2025-02-01 19:25:23,054 - INFO - Answer returned in JSON format
+2025-02-01 19:25:23,055 - INFO - 127.0.0.1 - - [01/Feb/2025 19:25:23] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:25:39,490 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:25:39,492 - INFO - Last count is 2
+2025-02-01 19:25:39,492 - INFO - New count is 3
+2025-02-01 19:25:39,492 - INFO - Counter function called
+2025-02-01 19:25:39,493 - INFO - The calculator function has been called 3 times
+2025-02-01 19:25:39,493 - INFO - Multiplication function called
+2025-02-01 19:25:39,493 - INFO - Multiplication done
+2025-02-01 19:25:39,493 - INFO - Answer returned in JSON format
+2025-02-01 19:25:39,493 - INFO - 127.0.0.1 - - [01/Feb/2025 19:25:39] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:26:50,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-01 19:26:50,499 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-01 19:26:57,071 - INFO - 127.0.0.1 - - [01/Feb/2025 19:26:57] "[31m[1mPOST /calculator3 HTTP/1.1[0m" 400 -
+2025-02-01 19:27:06,824 - INFO - Received data: {'num1': 100, 'num2': 50, 'operator': 'mul'}
+2025-02-01 19:27:06,826 - INFO - Counter function called
+2025-02-01 19:27:06,826 - INFO - The calculator function has been called 4 times
+2025-02-01 19:27:06,826 - INFO - Multiplication function called
+2025-02-01 19:27:06,826 - INFO - Multiplication done
+2025-02-01 19:27:06,826 - INFO - Answer returned in JSON format
+2025-02-01 19:27:06,826 - INFO - 127.0.0.1 - - [01/Feb/2025 19:27:06] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:34:08,942 - INFO - Received data: {'num1': 350, 'num2': 10, 'operator': 'add'}
+2025-02-01 19:34:08,943 - INFO - Counter function called
+2025-02-01 19:34:08,944 - INFO - The calculator function has been called 5 times
+2025-02-01 19:34:08,944 - INFO - Addition function called
+2025-02-01 19:34:08,944 - INFO - Addition done
+2025-02-01 19:34:08,944 - INFO - Answer returned in JSON format
+2025-02-01 19:34:08,944 - INFO - 127.0.0.1 - - [01/Feb/2025 19:34:08] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:36:07,329 - INFO - Received data: {'num1': 350, 'num2': 10, 'operator': 'mul'}
+2025-02-01 19:36:07,331 - INFO - Counter function called
+2025-02-01 19:36:07,331 - INFO - The calculator function has been called 6 times
+2025-02-01 19:36:07,331 - INFO - Multiplication function called
+2025-02-01 19:36:07,331 - INFO - Multiplication done
+2025-02-01 19:36:07,331 - INFO - Answer returned in JSON format
+2025-02-01 19:36:07,332 - INFO - 127.0.0.1 - - [01/Feb/2025 19:36:07] "POST /calculator3 HTTP/1.1" 200 -
+2025-02-01 19:36:25,091 - INFO - Received data: {'num1': 350, 'num2': 10, 'operator': 'dev'}
+2025-02-01 19:36:25,092 - INFO - Counter function called
+2025-02-01 19:36:25,092 - INFO - The calculator function has been called 7 times
+2025-02-01 19:36:25,093 - ERROR - Invalid operator
+2025-02-01 19:36:25,093 - INFO - 127.0.0.1 - - [01/Feb/2025 19:36:25] "[31m[1mPOST /calculator3 HTTP/1.1[0m" 400 -
+2025-02-01 19:36:47,860 - INFO - Received data: {'num1': 350, 'num2': 10}
+2025-02-01 19:36:47,861 - INFO - Counter function called
+2025-02-01 19:36:47,861 - INFO - The calculator function has been called 8 times
+2025-02-01 19:36:47,862 - ERROR - Operator is required
+2025-02-01 19:36:47,862 - INFO - 127.0.0.1 - - [01/Feb/2025 19:36:47] "[31m[1mPOST /calculator3 HTTP/1.1[0m" 400 -
